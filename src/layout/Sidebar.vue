@@ -108,7 +108,19 @@ let handleWindowResize = () => {
                                 <p>Navbar</p>
                             </div>
                         </router-link>
-                                              <router-link
+                          
+                             <router-link
+                            to="/components/navbar"
+                            tag="li"
+                            class="nav-item"
+                        >
+                            <div class="nav-item-hold">
+                                <i class="i-Wallet text-3xl"></i>
+                                <p>Navbar</p>
+                            </div>
+                        </router-link>
+
+                      <router-link
                             to="/components/form"
                             tag="li"
                             class="nav-item"
