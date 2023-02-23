@@ -57,6 +57,12 @@ const routes = [
                         component: () =>
                             import('../views/components/Form.vue'),
                     },
+                    {
+                        path: 'extra',
+                        name: 'extra',
+                        component: () =>
+                            import('../views/components/Extra.vue'),
+                    },
                 ],
             },
             {
